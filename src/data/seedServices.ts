@@ -1,0 +1,58 @@
+import type { Service } from '../types/service'
+
+export const SEED_SERVICES: Service[] = [
+  {
+    id: 'svc-1',
+    name: 'Mapa numerológico completo',
+    category: 'numerologia',
+    price: 260,
+    durationMinutes: 90,
+    description: 'Caminho de vida, missão, desafios e ciclos pessoais.',
+    active: true,
+  },
+  {
+    id: 'svc-2',
+    name: 'Ano pessoal',
+    category: 'previsao',
+    price: 180,
+    durationMinutes: 50,
+    description: 'Temas e oportunidades do seu ano numerológico.',
+    active: true,
+  },
+  {
+    id: 'svc-3',
+    name: 'Compatibilidade numerológica',
+    category: 'relacionamento',
+    price: 300,
+    durationMinutes: 80,
+    description: 'Harmonia e desafios entre dois mapas numéricos.',
+    active: true,
+  },
+  {
+    id: 'svc-4',
+    name: 'Mapa astral + numerologia',
+    category: 'mapa_astral',
+    price: 380,
+    durationMinutes: 100,
+    description: 'Integração de astrologia e numerologia no mesmo relatório.',
+    active: true,
+  },
+  {
+    id: 'svc-5',
+    name: 'Nome de bebê',
+    category: 'numerologia',
+    price: 150,
+    durationMinutes: 40,
+    description: 'Análise vibracional de nomes para escolha consciente.',
+    active: true,
+  },
+  {
+    id: 'svc-6',
+    name: 'Consulta expressa',
+    category: 'numerologia',
+    price: 110,
+    durationMinutes: 30,
+    description: 'Uma pergunta objetiva com foco numerológico.',
+    active: true,
+  },
+]
