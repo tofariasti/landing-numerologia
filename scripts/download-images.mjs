@@ -1,5 +1,5 @@
 /**
- * Download astrology-themed photos from Unsplash.
+ * Download verified numerology / cosmos-themed photos from Unsplash.
  * Run: node scripts/download-images.mjs
  */
 import { mkdir, writeFile } from 'node:fs/promises'
@@ -12,34 +12,34 @@ const outDir = join(__dirname, '../public/images')
 /** @type {Record<string, { slug: string; w?: number; desc: string }>} */
 const IMAGES = {
   'hero.jpg': {
-    slug: '1419242903514-623260b83f33',
+    slug: '1635070041078-e363dbe005cb',
     w: 1600,
-    desc: 'Céu noturno estrelado com via láctea',
+    desc: 'Galáxia espiral em tons violeta e dourado',
   },
   'hero-card.jpg': {
-    slug: '1462331940022-91e8e4d9d874',
+    slug: '1502134249126-9f3755a50d78',
     w: 900,
-    desc: 'Mesa com mapa astral, velas e cristais',
+    desc: 'Horizonte urbano sob céu profundo com estrelas',
   },
   'about.jpg': {
-    slug: '1446776877081-d282a29fb236',
+    slug: '1682687220063-4742bd7fd538',
     w: 1200,
-    desc: 'Consulta acolhedora com mapa astral sobre a mesa',
+    desc: 'Aurora boreal refletindo luz mística no céu',
   },
   'services.jpg': {
-    slug: '1464806836000-4682859d7f38',
+    slug: '1559827260-dc66d52bef19',
     w: 1200,
-    desc: 'Constelações e céu noturno sobre montanhas',
+    desc: 'Montanhas silhuetadas contra céu estrelado',
   },
   'methodology.jpg': {
-    slug: '1502134249126-9f3755a50d78',
+    slug: '1451187580459-43490279c0fa',
     w: 1200,
-    desc: 'Mapa do céu noturno projetado em tela',
+    desc: 'Terra e cosmos — perspectiva do espaço sideral',
   },
   'og-image.jpg': {
-    slug: '1419242903514-623260b83f33',
+    slug: '1677442136019-21780ecad995',
     w: 1200,
-    desc: 'Céu estrelado — imagem OG',
+    desc: 'Via láctea — imagem OG para compartilhamento',
   },
 }
 
@@ -62,4 +62,4 @@ for (const [filename, { slug, w, desc }] of Object.entries(IMAGES)) {
 }
 
 await writeFile(join(outDir, 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n')
-console.log('\nDone — astrology-themed images downloaded.')
+console.log('\nDone — numerology-themed images downloaded.')

@@ -1,44 +1,32 @@
 {
   "hero.jpg": {
-    "unsplashSlug": "1582735689369-4fe89db7114c",
-    "unsplashId": "5TfCI4nj6B4",
-    "description": "Cesto azul com roupas sujas e amassadas",
-    "bytes": 196852
+    "unsplashSlug": "1635070041078-e363dbe005cb",
+    "description": "Galáxia espiral em tons violeta e dourado",
+    "bytes": 282623
   },
   "hero-card.jpg": {
-    "unsplashSlug": "1585314293845-4db3b9d0c6e9",
-    "unsplashId": "aJN7zURQ1Wg",
-    "description": "Cesto de roupa suja ao lado de máquina de lavar",
-    "bytes": 191479
+    "unsplashSlug": "1502134249126-9f3755a50d78",
+    "description": "Horizonte urbano sob céu profundo com estrelas",
+    "bytes": 82133
   },
   "about.jpg": {
-    "unsplashSlug": "1585318518669-3365d350fcfa",
-    "unsplashId": "ZFEpdjFbqAQ",
-    "description": "Lavanderia self-service com secadoras e cestos",
-    "bytes": 267014
+    "unsplashSlug": "1682687220063-4742bd7fd538",
+    "description": "Aurora boreal refletindo luz mística no céu",
+    "bytes": 338410
   },
   "services.jpg": {
-    "unsplashSlug": "1604335399105-a0c585fd81a1",
-    "unsplashId": "awjwh4d-ikI",
-    "description": "Máquinas industriais de lavagem em lavanderia comercial",
-    "bytes": 166705
+    "unsplashSlug": "1559827260-dc66d52bef19",
+    "description": "Montanhas silhuetadas contra céu estrelado",
+    "bytes": 145214
   },
-  "process.jpg": {
-    "unsplashSlug": "1626806819282-2c1dc01a5e0c",
-    "unsplashId": "23coWmkTNSg",
-    "description": "Roupas dentro da máquina de lavar em ciclo de lavagem",
-    "bytes": 148235
-  },
-  "delivery.jpg": {
-    "unsplashSlug": "1692576855758-318a1fa8ff6d",
-    "unsplashId": "rUxZpfqi0uA",
-    "description": "Cestos de roupa suja no chão aguardando coleta",
-    "bytes": 155340
+  "methodology.jpg": {
+    "unsplashSlug": "1451187580459-43490279c0fa",
+    "description": "Terra e cosmos — perspectiva do espaço sideral",
+    "bytes": 136710
   },
   "og-image.jpg": {
-    "unsplashSlug": "1582735689369-4fe89db7114c",
-    "unsplashId": "5TfCI4nj6B4",
-    "description": "Cesto com roupas sujas — imagem OG",
-    "bytes": 88095
+    "unsplashSlug": "1677442136019-21780ecad995",
+    "description": "Via láctea — imagem OG para compartilhamento",
+    "bytes": 258448
   }
 }

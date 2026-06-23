@@ -15,8 +15,9 @@ test.describe('Landing page', () => {
 
   test('LifePathCalculator works', async ({ page }) => {
     await page.goto('./')
-    await page.getByLabel('Data de nascimento').scrollIntoViewIfNeeded()
-    await page.getByLabel('Data de nascimento').fill('1990-05-15')
+    const birthInput = page.locator('#birth-date')
+    await birthInput.scrollIntoViewIfNeeded()
+    await birthInput.fill('1990-05-15')
     await page.getByRole('button', { name: 'Revelar meu número' }).click()
     await expect(page.getByRole('status')).toContainText('Comunicador')
   })
